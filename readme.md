@@ -31,5 +31,5 @@ Eslint and Prettier were used for code formating and quality checking:
 
 **Notes**
 - Api tests are working stable
-- E2E tests due to issues with ebay (captchas, maintenance pages) failing often. 
+- E2E tests due to issues with ebay (captchas, maintenance pages) failing often on pipeline, also there is issue with memory in github actions. 
 - Pipeline runs every 6hours and after every commit every pipeline run can be seen in Github Actions: https://github.com/MildaKazi/PlaywrightProject/actions/workflows/playwright.yml
