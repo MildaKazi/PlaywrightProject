@@ -8,7 +8,10 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "check": "npm run format:fix && npm run lint:fix"
+    "check": "npm run format:fix && npm run lint:fix",
+    "api": "npx playwright test --project=api",
+    "ui": "npx playwright test --project=e2e",
+    "report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
