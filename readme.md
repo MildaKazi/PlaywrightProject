@@ -25,3 +25,5 @@ Eslint and Prettier were used for code formating and quality checking:
 
 - `tests/api` for api tests
 - `tests/e2e` for ui tests and their components
+
+![Playwright Tests](https://github.com/MildaKazi/PlaywrightProject/actions/workflows/playwright.yml/badge.svg)
