@@ -92,9 +92,7 @@ test("should update cart information when user adds/removes items", async ({
   expect(cartInfoMessageAfterDelete).toEqual("Your cart is empty");
 });
 
-test("should check if shipping information is saved", async ({
-  page,
-}) => {
+test("should check if shipping information is saved", async ({ page }) => {
   const resultPage = new ResultPage(page);
 
   await resultPage.filterPanel.applyPriceForFilter("50", "200");
@@ -110,7 +108,7 @@ test("should check if shipping information is saved", async ({
   await itemPage.buyItNowButton.click();
   await itemPage.buyItNowModal.checkouAsGuestButton.click();
 
-  //most of the time captcha appears only for automation and test going to fail. 
+  //most of the time captcha appears only for automation and test going to fail.
 
   await checkoutPage.shipToForm.fillForm(
     "wqeqwe@zxczxcx.com",

@@ -1,21 +1,27 @@
 # Playwright Homework Project
 
-NodeJs 24.14.0 required. 
+NodeJs 24.14.0 required.
 
-After cloning repository make sure to install node modules with npm install. 
+After cloning repository make sure to install node modules with npm install.
 
 ### To run tests:
-* **API:** `npm run api`
-* **UI:** `npm run ui`
 
-### To check report: 
-* `npm run report`
+- **API:** `npm run api`
+- **UI:** `npm run ui`
+
+### To check report:
+
+- `npm run report`
 
 ### Code Quality:
-Eslint and Prettier were used for code formating and quality checking: 
-* `npm run check`
+
+Eslint and Prettier were used for code formating and quality checking:
+
+- `npm run check`
 
 ---
+
 **Project Structure:**
-* `tests/api` for api tests
-* `tests/e2e` for ui tests and their components
+
+- `tests/api` for api tests
+- `tests/e2e` for ui tests and their components

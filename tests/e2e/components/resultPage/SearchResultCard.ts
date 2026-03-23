@@ -7,7 +7,9 @@ export class SearchResultCard {
 
   constructor(private readonly page: Locator) {
     this.title = this.page.locator(".s-card__title span:first-child");
-    this.headerLink = this.page.locator(".su-card-container__header .s-card__link");
+    this.headerLink = this.page.locator(
+      ".su-card-container__header .s-card__link",
+    );
     this.price = this.page.locator(".s-card__price");
   }
 
