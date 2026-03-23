@@ -7,7 +7,6 @@ import { ResultPage } from "../pages/ResultPage";
 import { ItemPage } from "../pages/ItemPage";
 import { NavigationHeader } from "../components/homePage/NavigationHeader";
 import { CartInformationPopUp } from "../components/homePage/CartInformationPopUp";
-import { CaptchaPage } from "../pages/CaptchaPage";
 import { KeyboardUtils } from "../utils/KeyboardUtils";
 import { KeyboardKeys } from "../enums/KeyboardKeys";
 import { CheckoutPage } from "../pages/CheckoutPage";
