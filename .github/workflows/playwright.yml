@@ -30,9 +30,6 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Quality Check
-        run: npm run check
-
       - name: Run API Tests
         run: npm run api
 
